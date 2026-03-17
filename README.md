@@ -48,9 +48,15 @@ K = 105
 T = 0.5
 r = 0.05
 sigma = 0.20
-Visualisations
-Option Price vs Stock Price
+```
 
-Greeks vs Stock Price
+## Visualisations
 
-Call Option Price vs Volatility
+### Option Price vs Stock Price
+![Option Prices](option_prices.png)
+
+### Greeks vs Stock Price
+![Greeks](greeks.png)
+
+### Call Option Price vs Volatility
+![Volatility](volatility_sensitivity.png)
