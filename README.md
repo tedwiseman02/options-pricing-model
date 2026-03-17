@@ -22,25 +22,25 @@ The project also generates charts to visualise:
 
 ## Files in This Project
 
-- `main.py` – runs the full model and generates outputs
-- `black_scholes.py` – contains Black-Scholes pricing functions
-- `greeks.py` – contains functions for calculating Greeks
-- `plots.py` – generates and saves visualisations
-- `option_prices.png` – option price sensitivity chart
-- `greeks.png` – Greeks sensitivity chart
-- `volatility_sensitivity.png` – volatility sensitivity chart
+- `main.py` – runs the full model and generates outputs  
+- `black_scholes.py` – contains Black-Scholes pricing functions  
+- `greeks.py` – contains functions for calculating Greeks  
+- `plots.py` – generates and saves visualisations  
+- `option_prices.png` – option price sensitivity chart  
+- `greeks.png` – Greeks sensitivity chart  
+- `volatility_sensitivity.png` – volatility sensitivity chart  
 
 ## Inputs
 
 The model uses the following inputs:
 
-- `S` = stock price
-- `K` = strike price
-- `T` = time to maturity in years
-- `r` = risk-free interest rate
-- `sigma` = volatility
+- `S` = stock price  
+- `K` = strike price  
+- `T` = time to maturity in years  
+- `r` = risk-free interest rate  
+- `sigma` = volatility  
 
-Example values used in this project:
+## Example Values
 
 ```python
 S = 100
@@ -48,14 +48,3 @@ K = 105
 T = 0.5
 r = 0.05
 sigma = 0.20
-
-## Visualisations
-
-### Option Price vs Stock Price
-![Option Prices](option_prices.png)
-
-### Greeks vs Stock Price
-![Greeks](greeks.png)
-
-### Call Option Price vs Volatility
-![Volatility](volatility_sensitivity.png)
